@@ -51,8 +51,9 @@ function RobotPage() {
   }, [robotPosition, pathIndex]);
 
   return (
-    <>
-      <div className="grid">
+    <div className="robot-main-frame">
+      <h1>Autonomous Robot</h1>
+      <div className="robot-grid">
         {Array.from({ length: gridSize }).map((_, rowIndex) => (
           <div key={rowIndex} className="row">
             {Array.from({ length: gridSize }).map((_, colIndex) => (
@@ -89,7 +90,7 @@ function RobotPage() {
         Restart
       </button>
       <h3>State: {action}</h3>
-    </>
+    </div>
   );
 }
 

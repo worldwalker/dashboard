@@ -18,7 +18,7 @@ function ItemPage() {
   };
 
   return (
-    <div className="main-frame">
+    <div className="item-main-frame">
       <h1>Product Color Selector</h1>
       <select
         onChange={handleColorChange}

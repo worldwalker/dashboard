@@ -1,0 +1,19 @@
+.item-main-frame {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.item-main-frame select {
+  width: 100px;
+  height: auto;
+  padding: 5px;
+}
+
+.item-main-frame img {
+  width: 25%;
+  height: auto;
+}
