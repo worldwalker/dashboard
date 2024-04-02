@@ -1,3 +1,5 @@
+import { ProductColor } from "@/types/common";
+
 export const data = {
   판매량: [
     { 월: "1월", 제품A: 120, 제품B: 150, 제품C: 80 },
@@ -37,3 +39,18 @@ export const salesVolumeData = {
     },
   ],
 };
+
+export const productColors: ProductColor[] = [
+  {
+    색상: "빨강",
+    이미지URL: "/images/red.webp",
+  },
+  {
+    색상: "파랑",
+    이미지URL: "/images/blue.webp",
+  },
+  {
+    색상: "녹색",
+    이미지URL: "/images/green.webp",
+  },
+];
