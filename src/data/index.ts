@@ -47,7 +47,7 @@ export const productColors: ProductColor[] = [
   },
   {
     색상: "파랑",
-    이미지URL: "/images/blue.webp",
+    이미지URL: "/images/blue.jpg",
   },
   {
     색상: "녹색",
